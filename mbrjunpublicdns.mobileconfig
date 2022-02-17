@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.mbrjun.cn/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use MBRjun Secure DNS with DNS-over-HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>MBRjun Public DoH</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.2df0fdac-f0f1-4a3a-8ecc-06f0e1056b1b</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>39d5ec84-2485-442e-a215-ad05199bf9ee</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Install MBRjun Secure DNS to iOS, iPadOS or macOS.</string>
+	<key>PayloadDisplayName</key>
+	<string>MBRjun Secure DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.moefire.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4484bd5b-0091-487d-8538-638ae5fbb247</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
