@@ -32,7 +32,12 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>TLS</string>
-				<key>ServerURL</key>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2001:470:18:444::2</string>
+					<string>43.129.183.116</string>
+				</array>
+				<key>ServerName</key>
 				<string>dns.mbrjun.cn</string>
 			</dict>
 			<key>PayloadDescription</key>
@@ -55,8 +60,13 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>QUIC</string>
-				<key>ServerURL</key>
-				<string>dns.mbrjun.cn:784</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2001:470:18:444::2</string>
+					<string>43.129.183.116</string>
+				</array>
+				<key>ServerName</key>
+				<string>dns.mbrjun.cn</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures device to use MBRjun Secure DNS with DNS-over-QUIC</string>
