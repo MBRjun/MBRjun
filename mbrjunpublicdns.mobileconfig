@@ -40,11 +40,11 @@
 			<key>PayloadDisplayName</key>
 			<string>MBRjun Public DNS-over-TLS(NOT recommended)</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.2df0fdac-f0f1-4a3a-8ecc-06f0e1056b1b</string>
+			<string>com.apple.dnsSettings.managed.0dc16718-dd65-4136-be2d-d3206e117e9b</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>30f77ada-2763-4b7a-80d1-893f791c5da9</string>
+			<string>9742a8ad-9f2b-4ac3-89fc-1476e52a2157</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
@@ -63,11 +63,11 @@
 			<key>PayloadDisplayName</key>
 			<string>MBRjun Public DNS-over-QUIC(Experimental)</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.2df0fdac-f0f1-4a3a-8ecc-06f0e1056b1b</string>
+			<string>com.apple.dnsSettings.managed.8fc6ff87-2c29-4f23-a278-83d7dc01889f</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>30f77ada-2763-4b7a-80d1-893f791c5da9</string>
+			<string>4e9d740d-93c7-45dc-8bde-bf6f90121ba3</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
