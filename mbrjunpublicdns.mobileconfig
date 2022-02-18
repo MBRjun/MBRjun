@@ -28,7 +28,7 @@
 			<key>PayloadUUID</key>
 			<string>9742a8ad-9f2b-4ac3-89fc-1476e52a2157</string>
 			<key>PayloadVersion</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>ProhibitDisablement</key>
 			<false/>
 		</dict>
@@ -51,7 +51,7 @@
 			<key>PayloadUUID</key>
 			<string>39d5ec84-2485-442e-a215-ad05199bf9ee</string>
 			<key>PayloadVersion</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>ProhibitDisablement</key>
 			<false/>
 		</dict>
@@ -99,6 +99,6 @@
 	<key>PayloadUUID</key>
 	<string>4484bd5b-0091-487d-8538-638ae5fbb247</string>
 	<key>PayloadVersion</key>
-	<integer>3</integer>
+	<integer>1</integer>
 </dict>
 </plist>
