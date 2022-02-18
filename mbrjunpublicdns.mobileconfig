@@ -55,6 +55,7 @@
 			<key>ProhibitDisablement</key>
 			<false/>
 		</dict>
+<!-- Enable DNS-over-QUIC
 		<dict>
 			<key>DNSSettings</key>
 			<dict>
@@ -83,6 +84,7 @@
 			<key>ProhibitDisablement</key>
 			<false/>
 		</dict>
+-->
 	</array>
 	<key>PayloadDescription</key>
 	<string>Install MBRjun Public DNS Encrypted to iOS, iPadOS or macOS.</string>
