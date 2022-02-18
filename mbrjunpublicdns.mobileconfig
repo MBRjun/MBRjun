@@ -8,29 +8,6 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerURL</key>
-				<string>https://dns.mbrjun.cn/dns-query</string>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures device to use MBRjun Secure DNS with DNS-over-HTTPS</string>
-			<key>PayloadDisplayName</key>
-			<string>MBRjun Public DNS-over-HTTPS(Recommended)</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.2df0fdac-f0f1-4a3a-8ecc-06f0e1056b1b</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>39d5ec84-2485-442e-a215-ad05199bf9ee</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
 				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
@@ -43,13 +20,36 @@
 			<key>PayloadDescription</key>
 			<string>Configures device to use MBRjun Secure DNS with DNS-over-TLS</string>
 			<key>PayloadDisplayName</key>
-			<string>MBRjun Public DNS-over-TLS(NOT recommended)</string>
+			<string>MBRjun Public DoT(NOT recommended)</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.0dc16718-dd65-4136-be2d-d3206e117e9b</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
 			<string>9742a8ad-9f2b-4ac3-89fc-1476e52a2157</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.mbrjun.cn/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use MBRjun Secure DNS with DNS-over-HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>MBRjun Public DoH(Recommended)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.2df0fdac-f0f1-4a3a-8ecc-06f0e1056b1b</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>39d5ec84-2485-442e-a215-ad05199bf9ee</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProhibitDisablement</key>
